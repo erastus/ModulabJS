@@ -1,0 +1,13 @@
+ {
+  "patientAdditionalInfoList": [
+    {
+      "patientID": 1,
+      "additionalInfoID": 1,
+      "additionalInfoValue": "Prioritario Tercera Edad",
+      "additionalInfoDescription": "Normal o Prioritario",
+      "additionalInfoCode": "P",
+      "inputType": "C",
+      "writeOwnCodedValue": "N"
+    }
+  ]
+}

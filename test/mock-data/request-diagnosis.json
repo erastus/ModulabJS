@@ -1,0 +1,9 @@
+{
+  "requestDiagnosisList": [
+    {
+      "diagnosisID": 1,
+      "diagnosisDescription": "CHEQUEO",
+      "diagnosisCode": "CH"
+    }
+  ]
+}

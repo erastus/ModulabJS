@@ -1,0 +1,11 @@
+{
+  "typescript.suggest.completeFunctionCalls": true,
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.ts$",
+        "cmd": "npm run compile:file -- ${file} && npm run clean"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "requestDestinationList": [
+    {
+      "destinationID": 1,
+      "destinationDescription": "SIN ENTREGA",
+      "destinationCode": "SE"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+ {
+  "patientPathologyList": [
+    {
+      "pathologyID": 1,
+      "pathologyDescription": "GRIPAS",
+      "active": "Y",
+      "labelColor": "#000000",
+      "shortName": "GRI",
+      "externalID": "",
+      "patientPathologyID": 1,
+      "patientID": 1,
+      "startDate": "2025-05-01T18:00:00.00Z",
+      "endDate": "2025-05-31T18:00:00.00Z"
+    }
+  ]
+}

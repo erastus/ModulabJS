@@ -1,0 +1,39 @@
+{
+  "name": "modulabjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precompile": "tsc --build && grunt clean && grunt compile && grunt clean && cd dist && npx prettier --write *.js",
+    "compile:file": "gulp compile --file",
+    "clean": "grunt clean && grunt compile && grunt clean && cd dist && npx prettier --write *.js",
+    "test": "jest --detectOpenHandles",
+    "test:watch": "jest --watch --detectOpenHandles",
+    "compress": "gulp compress"
+  },
+  "author": "Ing. Erasto Marroquin Ortega",
+  "private": true,
+  "license": "ISC",
+  "files": [
+    "out"
+  ],
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.3",
+    "chalk": "^4.1.2",
+    "class-transformer": "^0.5.1",
+    "grunt": "^1.6.1",
+    "grunt-template-render": "^0.0.1",
+    "grunt-text-replace": "^0.4.0",
+    "gulp": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-template": "^6.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-zip": "^6.1.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4"
+  }
+}

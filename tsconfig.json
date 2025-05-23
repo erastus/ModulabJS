@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "preserve",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "verbatimModuleSyntax": false,
+    "removeComments": false,
+    "inlineSources": false,
+    "sourceMap": false,
+
+    "allowSyntheticDefaultImports": false,
+    "experimentalDecorators": true,
+
+    "newLine": "lf",
+
+    "noEmitOnError": true,
+    "outDir": "./out",
+    "baseUrl": "src",
+
+    "paths": {
+      "@data/*": ["common/data/*"],
+      "@util/*": ["common/util/*"],
+      "@constants/*": ["common/constants/*"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "public_html",
+    "test",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "jest.setup.ts",
+  ]
+}

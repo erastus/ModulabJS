@@ -1,0 +1,13 @@
+{
+  "requestAdditionalInfoList": [
+    {
+      "additionalInfoID": 215,
+      "additionalInfoValue": "07:15 am",
+      "additionalInfoDescription": "HORA CITA",
+      "additionalInfoCode": "HCITA",
+      "inputType": "C",
+      "useSearcher": "N",
+      "writeOwnCodedValue": "N"
+    }
+  ]
+}
