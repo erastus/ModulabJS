@@ -1,0 +1,10 @@
+{
+  "isUrgent": "N",
+  "isConfidential": null,
+  "doctorID": 1,
+  "serviceID": 1,
+  "requestDate": "2024-01-30T18:00:00.000Z",
+  "sampleCollectionCenterID": 82,
+  "patientStatusCode": "E"
+  
+}
